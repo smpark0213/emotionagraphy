@@ -1,4 +1,5 @@
-import { useState, FormEvent, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import type { FormEvent } from 'react';
 import './ContactPage.css';
 
 const ContactPage = () => {
