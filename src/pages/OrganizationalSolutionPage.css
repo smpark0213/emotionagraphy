@@ -150,7 +150,7 @@
 
 .organizational-solution-page .btn-primary {
   display: inline-block;
-  background: #fff;
+  background: #ffffff;
   color: #000;
   padding: 20px 45px;
   text-decoration: none;
@@ -196,7 +196,7 @@
 }
 
 .organizational-solution-page .section-white {
-  background: #fff;
+  background: #ffffff;
   color: #000;
 }
 
@@ -236,7 +236,7 @@
 }
 
 .organizational-solution-page .problem-item {
-  background: #fff;
+  background: #f0f0f0;
   padding: 35px 30px;
   border-radius: 12px;
   text-align: left;

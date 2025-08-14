@@ -22,7 +22,7 @@ const Header = () => {
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="container nav">
         <Link to="/" className="logo">
-          <img src="/logo.jpeg" alt="Emotiongraphy Black" />
+          <img src="/logo.png" alt="Emotiongraphy Black" />
         </Link>
         
         <button 

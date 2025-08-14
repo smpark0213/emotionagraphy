@@ -37,8 +37,8 @@
 }
 
 .section-light {
-  background-color: var(--color-white);
-  color: var(--color-text-dark);
+  background-color: #ffffff;
+  color: #333;
 }
 
 .section-dark {
