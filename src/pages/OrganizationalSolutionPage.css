@@ -8,6 +8,7 @@
   background: #000;
   overflow-x: hidden;
   letter-spacing: -0.02em;
+  padding-top: 0;
 }
 
 .organizational-solution-page * {
@@ -78,6 +79,7 @@
     linear-gradient(135deg, #000 0%, #0a0a0a 50%, #000 100%);
   position: relative;
   overflow: hidden;
+  padding-top: 80px;
 }
 
 .organizational-solution-page .hero::before {
@@ -200,9 +202,17 @@
   color: #000;
 }
 
+.organizational-solution-page .section-white .section-title {
+  color: #000;
+}
+
 .organizational-solution-page .section-black {
   background: #000;
   color: #fff;
+}
+
+.organizational-solution-page .section-black .section-title {
+  color: #fff !important;
 }
 
 .organizational-solution-page .section-title {

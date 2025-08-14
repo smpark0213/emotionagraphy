@@ -83,6 +83,10 @@
     color: #000;
 }
 
+.section-white .section-title {
+    color: #000;
+}
+
 .section-black {
     background: #000;
     color: #fff;
@@ -93,12 +97,17 @@
     color: #000;
 }
 
+.section-gray .section-title {
+    color: #000;
+}
+
 .section-title {
     text-align: center;
     font-size: 2.8rem;
     font-weight: 800;
     margin-bottom: 20px;
     letter-spacing: -0.03em;
+    color: #000;
 }
 
 .section-subtitle {
@@ -138,11 +147,13 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     border: 1px solid #f0f0f0;
+    position: relative;
+    overflow: hidden;
 }
 
 .service-box:hover {
     transform: translateY(-8px);
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
 }
 
 .service-box h3 {
@@ -205,7 +216,7 @@
 
 .btn-secondary {
     display: inline-block;
-    background: transparent;
+    background: #fff;
     color: #000;
     padding: 15px 35px;
     text-decoration: none;
@@ -214,12 +225,35 @@
     font-weight: 700;
     font-size: 0.95rem;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .btn-secondary:hover {
     background: #000;
     color: #fff;
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+a.btn-secondary {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 15px 35px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a.btn-secondary:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Partners Section */
